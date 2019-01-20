@@ -37,8 +37,9 @@ namespace BookAnalysis
             Console.WriteLine(refList.Count);
 
             var resultService = new ResultsService();
-            resultService.Output(refList);
-            resultService.FormatForJSON(refList);
+            var dataJson = resultService.FormatForJSON(refList);
+
+             System.IO.File.WriteAllText(@"C:\Users\Tristan\source\repos\BookAnalysis\BookAnalysis\outputdata.json", dataJson);
 
             
 
