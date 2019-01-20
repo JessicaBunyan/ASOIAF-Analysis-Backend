@@ -1,6 +1,6 @@
 ﻿namespace BookAnalysis
 {
-    public class ToMatch
+    public class WordToMatch
     {
         public string Word;
         public string Regex;

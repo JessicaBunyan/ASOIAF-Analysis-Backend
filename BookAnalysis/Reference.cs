@@ -2,7 +2,7 @@
 {
     public class Reference
     {
-        public ToMatch Word;
+        public WordToMatch Word;
         public Chapter Chapter;
 
 

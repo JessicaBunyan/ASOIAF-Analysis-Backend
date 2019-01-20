@@ -49,15 +49,15 @@ namespace BookAnalysis
 
         }
 
-        public static List<ToMatch> getWordsToMatch()
+        public static List<WordToMatch> getWordsToMatch()
         {
 
-            List<ToMatch> words;
+            List<WordToMatch> words;
             // deserialize JSON directly from a file
             using (StreamReader file = File.OpenText(@"C:\Users\Tristan\source\repos\BookAnalysis\BookAnalysis\words.json"))
             {
                 JsonSerializer serializer = new JsonSerializer();
-                words  = (List<ToMatch>)serializer.Deserialize(file, typeof(List<ToMatch>));
+                words  = (List<WordToMatch>)serializer.Deserialize(file, typeof(List<WordToMatch>));
             }
 
             return words;

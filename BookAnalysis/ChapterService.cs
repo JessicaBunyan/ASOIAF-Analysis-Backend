@@ -9,11 +9,11 @@ namespace BookAnalysis
 {
     class ChapterService
     {
-        private List<ToMatch> searchWords;
+        private List<WordToMatch> searchWords;
         private List<List<Reference>> references= new List<List<Reference>>();
         private List<Chapter> chapters;
 
-        public ChapterService(List<ToMatch> words, List<Chapter> chapters)
+        public ChapterService(List<WordToMatch> words, List<Chapter> chapters)
         {
             searchWords = words;
             this.chapters = chapters;
@@ -41,7 +41,7 @@ namespace BookAnalysis
             return references;
         }
 
-        private void CheckChapter(Chapter chapter, ToMatch word,  List<Reference> refList)
+        private void CheckChapter(Chapter chapter, WordToMatch word,  List<Reference> refList)
         {
   
 
