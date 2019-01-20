@@ -28,16 +28,17 @@ namespace BookAnalysis
 
 
 
+
             var words = getWordsToMatch();
             
             var cs = new ChapterService(words, allChapters);
-            var result = cs.Analyse();
+            var refList = cs.Analyse();
 
-            Console.WriteLine(result.Count);
+            Console.WriteLine(refList.Count);
 
             var resultService = new ResultsService();
-            resultService.Output(result);
-            resultService.FormatForJSON(result);
+            resultService.Output(refList);
+            resultService.FormatForJSON(refList);
 
             
 

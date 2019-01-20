@@ -1,0 +1,458 @@
+[
+  {
+    "WORD": "ice",
+    "Regex": "ice",
+    "css-class": "ice",
+    "display-name": "Ice",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "bastard",
+    "Regex": "bastard",
+    "css-class": "",
+    "display-name": "Bastard",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "fire",
+    "Regex": "fire",
+    "css-class": "fire",
+    "display-name": "Fire",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "blood",
+    "Regex": "blood",
+    "css-class": "blood",
+    "display-name": "Blood",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "dragon",
+    "Regex": "dragons?",
+    "css-class": "fire",
+    "display-name": "Dragon",
+    "descriptor": "Dragon, Dragons",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "weirwood",
+    "Regex": "weirwoods?",
+    "css-class": "",
+    "display-name": "Weirwood",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "star",
+    "Regex": "stars?",
+    "css-class": "gold",
+    "display-name": "Star",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "ruby",
+    "Regex": "rub(y|ies)",
+    "css-class": "red",
+    "display-name": "Ruby",
+    "descriptor": "Ruby, Rubies",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "words are wind",
+    "Regex": "words are wind",
+    "css-class": "",
+    "display-name": "Words are wind",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "king",
+    "Regex": "kings?",
+    "css-class": "gold",
+    "display-name": "King",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "if I look back, I am lost",
+    "Regex": "if i look back,? i am lost",
+    "css-class": "",
+    "display-name": "If I look back, I am lost",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "fuck",
+    "Regex": "fuc(k|king|ked|ks)",
+    "css-class": "",
+    "display-name": "Fuck",
+    "descriptor": "Fuck, Fucked, Fucking, Fucks",
+    "is-nsfw": "TRUE"
+  },
+  {
+    "WORD": "winter",
+    "Regex": "winters?",
+    "css-class": "ice",
+    "display-name": "Winter",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "magic",
+    "Regex": "magic",
+    "css-class": "",
+    "display-name": "Magic",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "skinchanger",
+    "Regex": "skinchangers?",
+    "css-class": "",
+    "display-name": "Skinchanger",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "the wall",
+    "Regex": "the wall",
+    "css-class": "ice",
+    "display-name": "The Wall",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "winter is coming",
+    "Regex": "winter is coming",
+    "css-class": "ice",
+    "display-name": "Winter is coming",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "prince",
+    "Regex": "princes?",
+    "css-class": "gold",
+    "display-name": "Prince",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "fire and blood",
+    "Regex": "fire and blood",
+    "css-class": "blood",
+    "display-name": "Fire and Blood",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "stark",
+    "Regex": "starks?",
+    "css-class": "ice",
+    "display-name": "Stark",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "lannister",
+    "Regex": "lannisters?",
+    "css-class": "gold",
+    "display-name": "Lannister",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "north",
+    "Regex": "north",
+    "css-class": "ice",
+    "display-name": "North",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "nipple",
+    "Regex": "nipples?",
+    "css-class": "",
+    "display-name": "Nipple",
+    "descriptor": "",
+    "is-nsfw": "TRUE"
+  },
+  {
+    "WORD": "king's blood",
+    "Regex": "king(’|')s blood",
+    "css-class": "blood",
+    "display-name": "King's Blood",
+    "descriptor": "King's Blood, Kings blood",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "queen",
+    "Regex": "queens?",
+    "css-class": "gold",
+    "display-name": "Queen",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "sword",
+    "Regex": "swords?",
+    "css-class": "steel",
+    "display-name": "Sword",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "fear",
+    "Regex": "fear",
+    "css-class": "",
+    "display-name": "Fear",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "r’hllor",
+    "Regex": "R('|’)hllor",
+    "css-class": "fire",
+    "display-name": "R'hollor",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "promise",
+    "Regex": "promis(e|ed|es|)",
+    "css-class": "",
+    "display-name": "Promise",
+    "descriptor": "Promise, Promised, Promises",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "sea",
+    "Regex": "seas?",
+    "css-class": "sea",
+    "display-name": "Sea",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "gold",
+    "Regex": "gold",
+    "css-class": "gold",
+    "display-name": "Gold",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "raven",
+    "Regex": "ravens?",
+    "css-class": "black",
+    "display-name": "Raven",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "targaryen",
+    "Regex": "targaryens?",
+    "css-class": "fire",
+    "display-name": "Targaryen",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "boiled leather",
+    "Regex": "boiled leather",
+    "css-class": "black",
+    "display-name": "Boiled leather",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "seven",
+    "Regex": "seven",
+    "css-class": "",
+    "display-name": "Seven",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "mummer's farce",
+    "Regex": "mummer('|’)s farce",
+    "css-class": "",
+    "display-name": "Mummer's farce",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "stone",
+    "Regex": "stone",
+    "css-class": "stone",
+    "display-name": "Stone",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "cunt",
+    "Regex": "cunt",
+    "css-class": "",
+    "display-name": "Cunt",
+    "descriptor": "",
+    "is-nsfw": "TRUE"
+  },
+  {
+    "WORD": "snow",
+    "Regex": "sno(w|ws|wing|wed|wy)",
+    "css-class": "",
+    "display-name": "Snow",
+    "descriptor": "Snow, Snows, Snowing, Snowed, Snowy",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "wine",
+    "Regex": "wine",
+    "css-class": "blood",
+    "display-name": "Wine",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "the north remembers",
+    "Regex": "the north remembers",
+    "css-class": "",
+    "display-name": "The North remembers",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "hodor",
+    "Regex": "hodor",
+    "css-class": "",
+    "display-name": "Hodor",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "you know nothing",
+    "Regex": "you know nothing",
+    "css-class": "",
+    "display-name": "You know nothing",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "teat",
+    "Regex": "teats?",
+    "css-class": "",
+    "display-name": "Teat",
+    "descriptor": "",
+    "is-nsfw": "TRUE"
+  },
+  {
+    "WORD": "moonboy",
+    "Regex": "moonboy",
+    "css-class": "",
+    "display-name": "Moonboy",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "shit",
+    "Regex": "sh(i|a)t(ting)?",
+    "css-class": "stone",
+    "display-name": "Shit",
+    "descriptor": "",
+    "is-nsfw": "TRUE"
+  },
+  {
+    "WORD": "Valar Morghulis",
+    "Regex": "Valar Morghulis",
+    "css-class": "black",
+    "display-name": "Valar Morghulis",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "dark wings,dark words",
+    "Regex": "dark wings,? dark words",
+    "css-class": "black",
+    "display-name": "Dark wings, dark words",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "egg",
+    "Regex": "eggs?",
+    "css-class": "",
+    "display-name": "Egg",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "knight",
+    "Regex": "knigh(t|ts|ted)",
+    "css-class": "steel",
+    "display-name": "Knight",
+    "descriptor": "Knight, Knights, Knighted",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "honor",
+    "Regex": "honou?r",
+    "css-class": "steel",
+    "display-name": "Honour",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "duty",
+    "Regex": "dut(y|ies)",
+    "css-class": "",
+    "display-name": "Duty",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "family",
+    "Regex": "famil(y|ies)",
+    "css-class": "pink",
+    "display-name": "Family",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "love",
+    "Regex": "love",
+    "css-class": "pink",
+    "display-name": "Love",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "wolf",
+    "Regex": "wol(f|ves)",
+    "css-class": "",
+    "display-name": "Wolf",
+    "descriptor": "",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "lion",
+    "Regex": "lio(n|ns|ness)",
+    "css-class": "gold",
+    "display-name": "Lion",
+    "descriptor": "Lion, Lions, Lioness",
+    "is-nsfw": "FALSE"
+  },
+  {
+    "WORD": "crow",
+    "Regex": "crows?",
+    "css-class": "black",
+    "display-name": "Crow",
+    "descriptor": "Crow, Crows",
+    "is-nsfw": "FALSE"
+  }
+]
