@@ -11,8 +11,8 @@ namespace BookAnalysis.Services
     public class FileService
     {
 
-        const string chaptersFile = @"C:\Users\Tristan\GoT anaysis\chapters.json";
-
+        readonly string chaptersFile = @"C:\Users\Tristan\GoT anaysis\chapters.json";
+        readonly string outputFile = @"C:\Users\Tristan\source\repos\BookAnalysis\BookAnalysis\outputdata.json";
 
 
         private BookCollection _books;
@@ -59,6 +59,12 @@ namespace BookAnalysis.Services
                 return _wordsToMatch;
 
             }
+        }
+
+        public void WriteToFile(string dataJson)
+        {
+            System.IO.File.WriteAllText(outputFile, dataJson);
+
         }
 
         private BookCollection GetBooks()
