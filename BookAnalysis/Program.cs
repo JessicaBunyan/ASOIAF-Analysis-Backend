@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using BookAnalysis.Services;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,33 +11,27 @@ namespace BookAnalysis
 {
     class Program
     {
+
+        FileService fileService = new FileService();
+        ResultsService resultService = new ResultsService();
+
+
         static void Main(string[] args)
         {
 
-            var text = File.ReadAllText(@"C:\Users\Tristan\GoT anaysis\chapters.json");
-            var books = JsonConvert.DeserializeObject<BookCollection>(text);
-
-            books.books.ForEach(b => b.chapters.ForEach(c => c.book = b)); // set book ref.
-
-            var allChapters = new List<Chapter>();
-            books.books.ForEach(b => allChapters.AddRange(b.chapters));
-
-            allChapters.ForEach(c => Console.WriteLine(c.words));
+            new Program().Run();
 
 
+        }
+        public void Run() {
 
-
-
-
-
-            var words = getWordsToMatch();
+            var allChapters = fileService.Chapters;
+            var words = fileService.WordsToMatch;
             
             var cs = new ChapterService(words, allChapters);
             var refList = cs.Analyse();
 
-            Console.WriteLine(refList.Count);
 
-            var resultService = new ResultsService();
             var dataJson = resultService.FormatForJSON(refList);
 
              System.IO.File.WriteAllText(@"C:\Users\Tristan\source\repos\BookAnalysis\BookAnalysis\outputdata.json", dataJson);
@@ -50,18 +45,5 @@ namespace BookAnalysis
 
         }
 
-        public static List<WordToMatch> getWordsToMatch()
-        {
-
-            List<WordToMatch> words;
-            // deserialize JSON directly from a file
-            using (StreamReader file = File.OpenText(@"C:\Users\Tristan\source\repos\BookAnalysis\BookAnalysis\words.json"))
-            {
-                JsonSerializer serializer = new JsonSerializer();
-                words  = (List<WordToMatch>)serializer.Deserialize(file, typeof(List<WordToMatch>));
-            }
-
-            return words;
-        }
     }
 }
