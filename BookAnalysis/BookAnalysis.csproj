@@ -46,17 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="BookCollection.cs" />
-    <Compile Include="Chapter.cs" />
-    <Compile Include="ChapterService.cs" />
-    <Compile Include="outputChapter.cs" />
-    <Compile Include="OutputReference.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\BookCollection.cs" />
+    <Compile Include="Models\Chapter.cs" />
+    <Compile Include="Services\ChapterService.cs" />
+    <Compile Include="Models\outputChapter.cs" />
+    <Compile Include="Models\OutputReference.cs" />
+    <Compile Include="Models\OutputWord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reference.cs" />
-    <Compile Include="ResultsService.cs" />
-    <Compile Include="WordToMatch.cs" />
+    <Compile Include="Models\Reference.cs" />
+    <Compile Include="Services\ResultsService.cs" />
+    <Compile Include="Models\WordToMatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
