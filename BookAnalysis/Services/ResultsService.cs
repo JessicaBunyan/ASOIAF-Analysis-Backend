@@ -36,10 +36,10 @@ namespace BookAnalysis
             }
         }
 
-        public void FormatForJSON(List<List<Reference>> results)
+        public string FormatForJSON(List<List<Reference>> results)
         {
-            var dict = new Dictionary<string, List<OutputReference>>();
-            
+            var output = new List<OutputWord>();
+
             foreach (var wordRefs in results)
             {
                 var refsForThisWord = wordRefs.Select(r => new OutputReference()
@@ -52,14 +52,13 @@ namespace BookAnalysis
                 });
                 if (wordRefs.Count > 0)
                 {
-
-                dict.Add(wordRefs.FirstOrDefault()?.Word.Word, refsForThisWord.ToList());
+                    output.Add(new OutputWord(wordRefs.First().Word, refsForThisWord.ToList()));
                 }
             }
-            string json = JsonConvert.SerializeObject(dict, Formatting.Indented);
+            string json = JsonConvert.SerializeObject(output, Formatting.Indented);
 
 
-            return;
+            return json;
 
 
         }
